@@ -42,15 +42,15 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/clearBtn"
-                android:onClick="operationClick"
                 style="@style/WhiteGray.Button"
+                android:onClick="operationClick"
                 android:text="AC" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/plus_minus"
                 style="@style/WhiteGray.Button"
-                android:onClick="operationClick"
                 android:layout_marginHorizontal="12dp"
+                android:onClick="operationClick"
                 android:text="+/-" />
 
             <com.google.android.material.button.MaterialButton
@@ -79,14 +79,14 @@
 
             <com.google.android.material.button.MaterialButton
                 style="@style/Gray.Button"
-                android:onClick="numberClick"
                 android:layout_marginHorizontal="12dp"
+                android:onClick="numberClick"
                 android:text="@string/_8" />
 
             <com.google.android.material.button.MaterialButton
                 style="@style/Gray.Button"
-                android:onClick="numberClick"
                 android:layout_marginRight="12dp"
+                android:onClick="numberClick"
                 android:text="@string/_9" />
 
             <com.google.android.material.button.MaterialButton
@@ -109,14 +109,14 @@
 
             <com.google.android.material.button.MaterialButton
                 style="@style/Gray.Button"
-                android:onClick="numberClick"
                 android:layout_marginHorizontal="12dp"
+                android:onClick="numberClick"
                 android:text="@string/_5" />
 
             <com.google.android.material.button.MaterialButton
                 style="@style/Gray.Button"
-                android:onClick="numberClick"
                 android:layout_marginRight="12dp"
+                android:onClick="numberClick"
                 android:text="@string/_6" />
 
             <com.google.android.material.button.MaterialButton
@@ -139,14 +139,14 @@
 
             <com.google.android.material.button.MaterialButton
                 style="@style/Gray.Button"
-                android:onClick="numberClick"
                 android:layout_marginHorizontal="12dp"
+                android:onClick="numberClick"
                 android:text="@string/_2" />
 
             <com.google.android.material.button.MaterialButton
                 style="@style/Gray.Button"
-                android:onClick="numberClick"
                 android:layout_marginRight="12dp"
+                android:onClick="numberClick"
                 android:text="@string/_3" />
 
             <com.google.android.material.button.MaterialButton
@@ -165,9 +165,9 @@
             <com.google.android.material.button.MaterialButton
                 style="@style/Gray.Button"
                 android:layout_width="172dp"
+                android:onClick="numberClick"
                 android:paddingStart="32dp"
                 android:text="0"
-                android:onClick="numberClick"
                 android:textAlignment="textStart" />
 
             <com.google.android.material.button.MaterialButton
@@ -183,4 +183,15 @@
                 android:text="=" />
         </LinearLayout>
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:text="@string/go_next"
+        android:textColor="@color/white" />
 </androidx.constraintlayout.widget.ConstraintLayout>
